@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Cyber Journey</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My Cyber Journey</description>
+    <generator>Hugo</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 14 Feb 2025 18:19:31 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building this site</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 14 Feb 2025 18:19:31 +1100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;I decided to make a blog to track my progress and interests in Cyber Security.&lt;/p&gt;&#xA;&lt;p&gt;In this post I will be describing the methods I use.&lt;/p&gt;&#xA;&lt;p&gt;I’ve decided to use ‘Hugo’ -  a static site generator for this task.&lt;/p&gt;&#xA;&lt;p&gt;Steps:&lt;/p&gt;&#xA;&lt;p&gt;I started with installing Hugo via CLI using the command: &lt;em&gt;brew install hugo&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;To quickly spin up a test site, I ran the following set of commands:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;hugo new site quickstart&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
