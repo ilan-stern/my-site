@@ -1,19 +1,25 @@
 +++
 date = '2025-02-14T18:19:31+11:00'
-draft = true
+draft = false
 title = 'Building this site'
 +++
-I decided to make a blog to track my progress and interests in Cyber Security. 
+I decided to make a blog to track my progress and interests in **Cybersecurity**. 
 
-In this post I will be describing the methods I use.
+For this, I'm using ‘Hugo’ -  a static site generator that makes it easy to build fast, simple websites.
 
-I’ve decided to use ‘Hugo’ -  a static site generator for this task.
+---
 
-Steps:
+## Setting up the Site
 
-I started with installing Hugo via CLI using the command: *brew install hugo*
+### 1. Installing Hugo
 
-To quickly spin up a test site, I ran the following set of commands:
+I started with installing Hugo via the CLI using the command: 
+
+> *brew install hugo*
+
+### 2. Creating a New Hugo test Site
+
+To quickly spin up a test site, I ran the following commands:
 
 > *hugo new site quickstart*
 
@@ -27,16 +33,95 @@ To quickly spin up a test site, I ran the following set of commands:
 
 > *hugo server*
 
-Through these commands I was able to visit my site through the provided link in the output of the last command.
+After running hugo server, the terminal provided a local URL where I could view my site in the browser.
 
-After this, I made my first post here (this page).
+---
 
-I did this through adding a new page to the **posts** directory.
+## Creating My First Post
+
+Once the basic site was running, I created my first post:
 
 > *hugo new content content/posts/my-first-post.md*
 
-After simply adding this text and running the command: 
+After adding this text to the file, I ran: 
 
 > *hugo server -D*
 
-I was able to see my first post!
+The -D flag ensures that **draft posts** are included in the local preview.
+
+I was able to see my first post! (On the live development server)
+
+---
+
+## Configuring the Site
+
+In the *hugo.toml* file, I configured the baseURL, language code, and title for the site.
+
+---
+
+## Deploying to GitHub Pages
+
+Thanks to the excellent documentation on the gohugo site, this process was a breeze.
+
+### 1. Creating a GitHub Repository
+
+I first created a new repo on GitHub
+
+### 2. Pushing the Local Hugo Site to GitHub
+
+Once the repo was created, I linked my local project to GitHub and pushed the files:
+
+> *git remote add origin <Link to the GitHub Repo>*
+
+> *git branch -M main*
+
+> *git push -u origin main*
+
+### 3. Configuring GitHub Pages
+
+In **GitHub -> Settings -> Pages**, I set the **Source** to "GitHub Actions". 
+
+### 4. Creating the Deployment Workflow
+
+I created the .github/workflows directory and a deployment workflow file:
+
+> *mkdir -p .github/workflows*
+
+> *cd .github/workflows*
+
+> *touch hugo.yaml*
+
+Then, I copied the GitHub Actions deployment script from the Hugo documentation. This scripts defines the steps GitHub Actions follows to build and deploy the site.
+
+---
+
+## Finalising the Deployment
+
+With everything set up, I committed and pushed the new workflow file:
+
+> *git add -A*
+
+> *git commit -m "Created GitHub Actions workflow for deployment"*
+
+> *git push*
+
+Once the workflow ran successfully, I navigated to the **Actions tab** in GitHub to monitor the deployment. After it completed, my blog was live!
+
+---
+
+## Reflections
+
+Overall, this project was a fun and straightforward experience, thanks to Hugo's extensive documentation. I'm excited to continue updating this blog as I progress in my Cybersecurity journey.
+
+This is my first post, and I look forward to sharing more soon!
+
+---
+
+## Resources Used
+
+Hugo Quickstart Guide: https://gohugo.io/getting-started/quick-start/
+
+Hugo Hosting on GitHub Pages: https://gohugo.io/hosting-and-deployment/hosting-on-github/
+
+
+

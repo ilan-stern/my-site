@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 14 Feb 2025 18:19:31 +1100</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;I decided to make a blog to track my progress and interests in Cyber Security.&lt;/p&gt;&#xA;&lt;p&gt;In this post I will be describing the methods I use.&lt;/p&gt;&#xA;&lt;p&gt;I’ve decided to use ‘Hugo’ -  a static site generator for this task.&lt;/p&gt;&#xA;&lt;p&gt;Steps:&lt;/p&gt;&#xA;&lt;p&gt;I started with installing Hugo via CLI using the command: &lt;em&gt;brew install hugo&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;To quickly spin up a test site, I ran the following set of commands:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;hugo new site quickstart&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I decided to make a blog to track my progress and interests in &lt;strong&gt;Cybersecurity&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For this, I&amp;rsquo;m using ‘Hugo’ -  a static site generator that makes it easy to build fast, simple websites.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;setting-up-the-site&#34;&gt;Setting up the Site&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-installing-hugo&#34;&gt;1. Installing Hugo&lt;/h3&gt;&#xA;&lt;p&gt;I started with installing Hugo via the CLI using the command:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;brew install hugo&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;2-creating-a-new-hugo-test-site&#34;&gt;2. Creating a New Hugo test Site&lt;/h3&gt;&#xA;&lt;p&gt;To quickly spin up a test site, I ran the following commands:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
