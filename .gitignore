@@ -1,0 +1,9 @@
+# Hugo specific files
+public/
+resources/
+hugo_stats.json
+
+# Ignore local development files
+.DS_Store
+node_modules/
+dist/
