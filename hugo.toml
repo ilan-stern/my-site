@@ -1,4 +1,4 @@
 baseURL = 'https://lean.dev/'
 languageCode = 'en-au'
-title = 'My Cyber Journey'
+title = 'Bit by Bit'
 theme = 'hugo-theme-m10c'
