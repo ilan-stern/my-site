@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Cyber Journey</title>
+    <title>Bit-by-Bit</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My Cyber Journey</description>
+    <description>Recent content on Bit-by-Bit</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Fri, 14 Feb 2025 18:19:31 +1100</lastBuildDate>
