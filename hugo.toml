@@ -6,6 +6,11 @@ theme = 'hugo-theme-m10c'
 [params]
   author = "Ilan Stern"
   description = "This is a portfolio to follow my Cyber Career advancements - Bit-by-Bit | Currently SOC Analyst"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "brand-LinkedIn"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/ilan-stern-baa413192/"
 
 # Red theme
  [params.style]
