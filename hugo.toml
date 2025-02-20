@@ -1,5 +1,9 @@
-baseURL = 'https://lean.dev/'
+baseURL = 'https://ilan-stern.github.io/my-site/'
 languageCode = 'en-au'
 title = 'Bit-by-Bit'
 theme = 'hugo-theme-m10c'
-description = 'This is a portfolio to follow my Cyber Career advancements - Bit-by-Bit | Currently SOC Analyst'
+
+[params]
+  author = "Ilan Stern"
+  subtitle = "This is a portfolio to follow my Cyber Career advancements - Bit-by-Bit | Currently SOC Analyst"
+  
