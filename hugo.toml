@@ -5,5 +5,12 @@ theme = 'hugo-theme-m10c'
 
 [params]
   author = "Ilan Stern"
-  subtitle = "This is a portfolio to follow my Cyber Career advancements - Bit-by-Bit | Currently SOC Analyst"
-  
+  description = "This is a portfolio to follow my Cyber Career advancements - Bit-by-Bit | Currently SOC Analyst"
+
+# Red theme
+ [params.style]
+   darkestColor = "#d1001f"
+   darkColor = "#000000"
+   lightColor = "#d6d6d6"
+   lightestColor = "#d3d3d3"
+   primaryColor = "#ffffff"
