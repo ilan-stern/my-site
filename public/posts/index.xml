@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Bit-by-Bit</description>
     <generator>Hugo</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 14 Feb 2025 18:19:31 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 12:15:31 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/my-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build and Break Introduction</title>
+      <link>http://localhost:1313/my-site/posts/build-and-break/</link>
+      <pubDate>Sun, 23 Feb 2025 12:15:31 +1100</pubDate>
+      <guid>http://localhost:1313/my-site/posts/build-and-break/</guid>
+      <description>&lt;h1 id=&#34;project&#34;&gt;Project&lt;/h1&gt;&#xA;&lt;p&gt;Build and break - Web Application.&lt;/p&gt;&#xA;&lt;h1 id=&#34;goal&#34;&gt;Goal&lt;/h1&gt;&#xA;&lt;p&gt;Advance my knowledge in the defensive and offensive aspects of web application security.&lt;/p&gt;&#xA;&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;&#xA;&lt;p&gt;I will be attempting to create a web application, starting at a very basic level, and attempting to find vulnerabilities in it. After exploiting the vulnerability, I will switch back to the defensive side and try patch this issue.&lt;/p&gt;&#xA;&lt;p&gt;This will continue until I can no longer find a vulnerability.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building this site</title>
       <link>http://localhost:1313/my-site/posts/my-first-post/</link>
