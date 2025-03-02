@@ -6,8 +6,15 @@
     <description>Recent content on Bit-by-Bit</description>
     <generator>Hugo</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 23 Feb 2025 12:15:31 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 13:23:55 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/my-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Specialer PicoCTF</title>
+      <link>http://localhost:1313/my-site/posts/specialer-picoctf/</link>
+      <pubDate>Sun, 02 Mar 2025 13:23:55 +1100</pubDate>
+      <guid>http://localhost:1313/my-site/posts/specialer-picoctf/</guid>
+      <description>&lt;h1 id=&#34;specialer&#34;&gt;Specialer&lt;/h1&gt;&#xA;&lt;p&gt;Medium | General Skills | picoCTF 2023 | bash | ssh&lt;/p&gt;&#xA;&lt;h2 id=&#34;author-lt-syreal-jones-et-al&#34;&gt;Author: LT &amp;lsquo;syreal&amp;rsquo; Jones, et al.&lt;/h2&gt;&#xA;&lt;p&gt;Reception of Special has been cool to say the least. That&amp;rsquo;s why we made an&#xA;exclusive version of Special, called Secure Comprehensive Interface for&#xA;Affecting Linux Empirically Rad, or just &amp;lsquo;Specialer&amp;rsquo;. With Specialer, we really&#xA;tried to remove the distractions from using a shell. Yes, we took out spell&#xA;checker because of everybody&amp;rsquo;s complaining. But we think you will be excited&#xA;about our new, reduced feature set for keeping you focused on what needs it the&#xA;most.  Please start an instance to test your very own copy of Specialer.&#xA;&lt;code&gt;ssh -p 51238 ctf-player@saturn.picoctf.net&lt;/code&gt;. The password is&#xA;&lt;code&gt;af86add3&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Build and Break Introduction</title>
       <link>http://localhost:1313/my-site/posts/build-and-break/</link>
