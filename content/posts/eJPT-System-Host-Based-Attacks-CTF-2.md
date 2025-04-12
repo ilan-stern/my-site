@@ -1,6 +1,6 @@
 +++
 date = '2025-04-12T11:30:14+10:00'
-draft = true
+draft = false
 title = 'EJPT System Host Based Attacks CTF 2'
 +++
 # System/Host Based Attacks CTF 2
