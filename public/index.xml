@@ -6,8 +6,15 @@
     <description>Recent content on Bit-by-Bit</description>
     <generator>Hugo</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 02 Mar 2025 13:23:55 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 12 Apr 2025 11:30:14 +1000</lastBuildDate>
     <atom:link href="http://localhost:1313/my-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EJPT System Host Based Attacks CTF 2</title>
+      <link>http://localhost:1313/my-site/posts/ejpt-system-host-based-attacks-ctf-2/</link>
+      <pubDate>Sat, 12 Apr 2025 11:30:14 +1000</pubDate>
+      <guid>http://localhost:1313/my-site/posts/ejpt-system-host-based-attacks-ctf-2/</guid>
+      <description>&lt;h1 id=&#34;systemhost-based-attacks-ctf-2&#34;&gt;System/Host Based Attacks CTF 2&lt;/h1&gt;&#xA;&lt;p&gt;For this CTF, there are 4 available flags.&#xA;To find them, we need to exploit vulnerabilities found on the Linux system we are provided.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-flags&#34;&gt;The Flags&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Check the root (&amp;rsquo;/&amp;rsquo;) directory for a file that might hold the key to the first flag on target1.ine.local.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;In the server&amp;rsquo;s root directory, there might be something hidden. Explore &amp;lsquo;/opt/apache/htdocs/&amp;rsquo; carefully to find the next flag on target1.ine.local.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Specialer PicoCTF</title>
       <link>http://localhost:1313/my-site/posts/specialer-picoctf/</link>
