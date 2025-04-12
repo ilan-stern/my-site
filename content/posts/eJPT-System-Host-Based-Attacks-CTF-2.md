@@ -30,5 +30,6 @@ To start off, I conducted an nmap service scan to find the available services fo
 
 > *nmap -sV target1.ine.local*
 
+![alt](/public/images/Picture1.png)
 
 
