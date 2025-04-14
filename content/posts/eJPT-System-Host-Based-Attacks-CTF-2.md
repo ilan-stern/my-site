@@ -33,7 +33,7 @@ To start off, I conducted an nmap service scan to find the available services fo
 <img src="{{ "images/Picture1.jpg" | absURL }}" alt="..." />
 > *nmap -sV target1.ine.local*
 
-![demo](/images/Picture1.jpg)
+![demo](static/images/Picture1.jpg)
 
 This shows that port 80 was open and running Apache httpd.
 
