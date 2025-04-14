@@ -29,7 +29,8 @@ To find them, we need to exploit vulnerabilities found on the Linux system we ar
 
 ### Recon
 To start off, I conducted an nmap service scan to find the available services found on the most common TCP ports.
-
+<img src="{{ "images/Picture1.jpg" | relURL }}" alt="..." />
+<img src="{{ "images/Picture1.jpg" | absURL }}" alt="..." />
 > *nmap -sV target1.ine.local*
 
 ![demo](/images/Picture1.jpg)
