@@ -11,7 +11,7 @@ To find them, we need to exploit vulnerabilities found on the Linux system we ar
 ---
 ## The Flags
 1. Check the root ('/') directory for a file that might hold the key to the first flag on target1.ine.local.
-  
+ 
 2. In the server's root directory, there might be something hidden. Explore '/opt/apache/htdocs/' carefully to find the next flag on target1.ine.local.
  
 3. Investigate the user's home directory and consider using 'libssh_auth_bypass' to uncover the flag on target2.ine.local.
